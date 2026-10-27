@@ -1,0 +1,15 @@
+{
+  "name": "vaibhav-minecraft-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minecraft-inspired editable engineering placement portfolio \u2014 local preview only",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs",
+    "check": "node --check src/main.js && node --check src/data/projects.js && node --check scripts/dev-server.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
